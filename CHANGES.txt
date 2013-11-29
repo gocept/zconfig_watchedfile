@@ -1,0 +1,8 @@
+==================================
+Change log for zconfig_watchedfile
+==================================
+
+0.1 (unreleased)
+================
+
+initial release
