@@ -2,7 +2,7 @@
 Change log for zconfig_watchedfile
 ==================================
 
-0.1 (unreleased)
+1.0 (2013-11-29)
 ================
 
 initial release
