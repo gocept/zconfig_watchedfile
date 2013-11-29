@@ -8,5 +8,8 @@ develop-eggs
 dist
 doc/_api
 eggs
+include
+lib
+local
 local.cfg
 parts
