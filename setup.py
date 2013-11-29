@@ -20,6 +20,7 @@ setup(
     version='0.1.dev0',
 
     install_requires=[
+        'ZConfig',
         'setuptools',
     ],
 
