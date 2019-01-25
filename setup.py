@@ -4,6 +4,7 @@
 # This should be only one line. If it must be multi-line, indent the second
 # line onwards to keep the PKG-INFO file format intact.
 """
+ZConfig statement to register a logging handler using WatchedFileHandler
 """
 
 from setuptools import setup, find_packages
@@ -33,7 +34,7 @@ setup(
     license='ZPL 2.1',
     url='https://bitbucket.org/gocept/zconfig_watchedfile/',
 
-    keywords='',
+    keywords='ZConfig WatchedFileHandler logging handler',
     classifiers="""\
 License :: OSI Approved :: Zope Public License
 Programming Language :: Python :: 2.7
