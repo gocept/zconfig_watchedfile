@@ -17,7 +17,7 @@ def project_path(*names):
 
 setup(
     name='zconfig_watchedfile',
-    version='1.1',
+    version='1.2.dev0',
 
     install_requires=[
         'ZConfig',
