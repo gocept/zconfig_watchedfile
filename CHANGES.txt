@@ -2,7 +2,7 @@
 Change log for zconfig_watchedfile
 ==================================
 
-1.1 (unreleased)
+1.1 (2019-01-25)
 ================
 
 - Make `setup.py` compatible with newer `setuptools` versions.
