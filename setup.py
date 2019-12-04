@@ -35,17 +35,18 @@ setup(
     license='ZPL 2.1',
     url='https://github.com/gocept/zconfig_watchedfile',
     keywords='ZConfig WatchedFileHandler logging handler',
-    classifiers="""\
-License :: OSI Approved :: Zope Public License
-Programming Language :: Python :: 2.7
-Programming Language :: Python :: 2 :: Only
-"""[:-1].split('\n'),
+    classifiers=[
+        'License :: OSI Approved :: Zope Public License',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+    ],
     description=__doc__.strip(),
     long_description='\n\n'.join(read(name) for name in (
         'README.rst',
         'CHANGES.rst',
     )),
-
     packages=find_packages('src'),
     package_dir={'': 'src'},
     include_package_data=True,
