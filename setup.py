@@ -8,11 +8,12 @@ ZConfig statement to register a logging handler using WatchedFileHandler
 """
 
 from setuptools import setup, find_packages
-import os.path
 
 
-def project_path(*names):
-    return os.path.join(os.path.dirname(__file__), *names)
+def read(name):
+    """Read a file."""
+    with open(name) as f:
+        return f.read()
 
 
 setup(
@@ -32,8 +33,7 @@ setup(
     author='gocept <mail@gocept.com>',
     author_email='mail@gocept.com',
     license='ZPL 2.1',
-    url='https://bitbucket.org/gocept/zconfig_watchedfile/',
-
+    url='https://github.com/gocept/zconfig_watchedfile',
     keywords='ZConfig WatchedFileHandler logging handler',
     classifiers="""\
 License :: OSI Approved :: Zope Public License
@@ -41,9 +41,9 @@ Programming Language :: Python :: 2.7
 Programming Language :: Python :: 2 :: Only
 """[:-1].split('\n'),
     description=__doc__.strip(),
-    long_description='\n\n'.join(open(name).read() for name in (
-        'README.txt',
-        'CHANGES.txt',
+    long_description='\n\n'.join(read(name) for name in (
+        'README.rst',
+        'CHANGES.rst',
     )),
 
     packages=find_packages('src'),
