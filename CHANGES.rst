@@ -2,6 +2,12 @@
 Change log for zconfig_watchedfile
 ==================================
 
+1.3 (unreleased)
+================
+
+- Nothing changed yet.
+
+
 1.2 (2019-12-04)
 ================
 
