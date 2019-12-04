@@ -37,6 +37,7 @@ setup(
     keywords='ZConfig WatchedFileHandler logging handler',
     classifiers=[
         'License :: OSI Approved :: Zope Public License',
+        'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.7',

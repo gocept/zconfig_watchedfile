@@ -1,7 +1,15 @@
 include *.py
 include *.txt
 include *.rst
+
 include .coveragerc
-include buildout.cfg
+exclude .coveragerc
+
 include pytest.ini
+exclude pytest.ini
+
+include tox.ini
+exclude tox.ini
+
 recursive-include src *.xml
+exclude MANIFEST.in
