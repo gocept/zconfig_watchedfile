@@ -7,6 +7,8 @@ Change log for zconfig_watchedfile
 
 - Migrated to github.
 
+- Add support for Python 3.7 and 3.8.
+-
 
 1.1 (2019-01-25)
 ================

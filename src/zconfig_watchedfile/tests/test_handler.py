@@ -1,4 +1,4 @@
-from StringIO import StringIO
+from io import StringIO
 import ZConfig
 import logging
 import logging.handlers
@@ -8,12 +8,14 @@ import pytest
 
 @pytest.fixture(autouse=True)
 def logger(request):
+    """Logger for tests."""
     def reset_handler():
         logging.getLogger('foo').handlers[:] = []
     request.addfinalizer(reset_handler)
 
 
 def load_config(config):
+    """Help to load config."""
     schema = ZConfig.loadSchemaFile(open(pkg_resources.resource_filename(
         __name__, 'schema.xml')))
     conf, handler = ZConfig.loadConfigFile(schema, StringIO(config))
@@ -21,7 +23,8 @@ def load_config(config):
 
 
 def test_creates_watchedfilehandler():
-    loggers = load_config("""
+    """It creates a watchedfilehandler at the path."""
+    loggers = load_config(u"""
 %import zconfig_watchedfile
 <logger>
    name foo
@@ -37,7 +40,8 @@ def test_creates_watchedfilehandler():
 
 
 def test_passes_parameters():
-    loggers = load_config("""
+    """It passes the parameter from config to handler."""
+    loggers = load_config(u"""
 %import zconfig_watchedfile
 <logger>
    name foo
