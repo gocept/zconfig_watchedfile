@@ -5,7 +5,7 @@ Change log for zconfig_watchedfile
 1.2 (unreleased)
 ================
 
-- Nothing changed yet.
+- Migrated to github.
 
 
 1.1 (2019-01-25)
