@@ -18,7 +18,7 @@ def read(name):
 
 setup(
     name='zconfig_watchedfile',
-    version='1.2.dev0',
+    version='1.2',
 
     install_requires=[
         'ZConfig',
