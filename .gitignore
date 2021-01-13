@@ -7,6 +7,7 @@
 .tox/
 bin
 build
+coverage-report
 develop-eggs
 dist
 doc/_api

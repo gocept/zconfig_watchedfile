@@ -5,7 +5,7 @@ Change log for zconfig_watchedfile
 1.3 (unreleased)
 ================
 
-- Nothing changed yet.
+- Use GitHub actions as CI.
 
 
 1.2 (2019-12-04)
