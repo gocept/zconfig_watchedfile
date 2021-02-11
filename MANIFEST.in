@@ -1,6 +1,7 @@
 include *.py
 include *.txt
 include *.rst
+include *.yaml
 
 include .coveragerc
 exclude .coveragerc
