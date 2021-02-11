@@ -7,7 +7,8 @@
 ZConfig statement to register a logging handler using WatchedFileHandler
 """
 
-from setuptools import setup, find_packages
+from setuptools import find_packages
+from setuptools import setup
 
 
 def read(name):
