@@ -2,7 +2,7 @@
 Change log for zconfig_watchedfile
 ==================================
 
-2.0 (unreleased)
+2.0 (2023-08-17)
 ================
 
 - Drop support for all Python versions older than 3.8.
