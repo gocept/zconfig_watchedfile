@@ -24,7 +24,7 @@ def load_config(config):
 
 def test_creates_watchedfilehandler():
     """It creates a watchedfilehandler at the path."""
-    loggers = load_config(u"""
+    loggers = load_config("""
 %import zconfig_watchedfile
 <logger>
    name foo
@@ -41,7 +41,7 @@ def test_creates_watchedfilehandler():
 
 def test_passes_parameters():
     """It passes the parameter from config to handler."""
-    loggers = load_config(u"""
+    loggers = load_config("""
 %import zconfig_watchedfile
 <logger>
    name foo

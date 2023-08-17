@@ -19,6 +19,6 @@ The ``<watchedfile>`` supports both the default ZConfig settings for handlers
 (formatter, dateformat, level) and the parameters of `WatchedFileHandler`_
 (mode, encoding, delay).
 
-This package is compatible with Python version 2.7, 3.7 and 3.8.
+This package is compatible with Python version 3.8 up to 3.11.
 
-.. _`WatchedFileHandler`: http://docs.python.org/2/library/logging.handlers.html#watchedfilehandler
+.. _`WatchedFileHandler`: https://docs.python.org/3.11/library/logging.handlers.html#watchedfilehandler

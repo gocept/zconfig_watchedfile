@@ -1,4 +1,4 @@
-# Copyright (c) 2013, 2019 gocept gmbh & co. kg
+# Copyright (c) 2013, 2019, 2023 gocept gmbh & co. kg
 # See also LICENSE.txt
 
 # This should be only one line. If it must be multi-line, indent the second
@@ -19,8 +19,8 @@ def read(name):
 
 setup(
     name='zconfig_watchedfile',
-    version='1.3.dev0',
-
+    version='2.0.dev0',
+    python_requires='>=3.8',
     install_requires=[
         'ZConfig',
         'setuptools',
@@ -40,9 +40,10 @@ setup(
         'License :: OSI Approved :: Zope Public License',
         'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],
     description=__doc__.strip(),
     long_description='\n\n'.join(read(name) for name in (
