@@ -2,10 +2,12 @@
 Change log for zconfig_watchedfile
 ==================================
 
-1.3 (unreleased)
+2.0 (unreleased)
 ================
 
-- Use GitHub actions as CI.
+- Drop support for all Python versions older than 3.8.
+
+- Add support for Python 3.9, 3.10, 3.11.
 
 
 1.2 (2019-12-04)
