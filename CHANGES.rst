@@ -2,6 +2,12 @@
 Change log for zconfig_watchedfile
 ==================================
 
+2.1 (unreleased)
+================
+
+- Nothing changed yet.
+
+
 2.0 (2023-08-17)
 ================
 

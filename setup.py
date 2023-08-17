@@ -19,7 +19,7 @@ def read(name):
 
 setup(
     name='zconfig_watchedfile',
-    version='2.0',
+    version='2.1.dev0',
     python_requires='>=3.8',
     install_requires=[
         'ZConfig',
